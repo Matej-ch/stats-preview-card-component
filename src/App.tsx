@@ -1,13 +1,11 @@
-import { useState } from 'react'
 import './App.scss'
+import StatPreviewCard from "./StatPreviewCard";
 
 function App() {
 
 
   return (
-    <div className="App">
-
-    </div>
+    <StatPreviewCard />
   )
 }
 
