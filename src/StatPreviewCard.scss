@@ -4,6 +4,22 @@
   overflow: hidden;
   max-width: 600px;
 
+  picture {
+    position: relative;
+  }
+
+  picture:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--cc-accent);
+    opacity: 0.5;
+  }
+
   .info-wrapper {
     padding: 2rem;
     font-weight: var(--fw-bold);
