@@ -1,6 +1,6 @@
 import './StatPreviewCard.scss'
-import imageProductMobile from './assets/image-header-mobile.jpg'
-import imageProductDesktop from './assets/image-header-desktop.jpg'
+import imageProductDesktop from './assets/image-header-mobile.jpg'
+import imageProductMobile from './assets/image-header-desktop.jpg'
 
 function StatPreviewCard() {
     return (<article className={'preview-card'} role={'main'}>
@@ -15,18 +15,21 @@ function StatPreviewCard() {
             <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience,
                 and overall efficiency</p>
 
-            <div className={'stat-group'}>
-                <p>10k+</p>
-                <p>Companies</p>
+            <div className={'stat'}>
+                <div className={'stat-group'}>
+                    <p>10k+</p>
+                    <p>Companies</p>
+                </div>
+                <div className={'stat-group'}>
+                    <p>314</p>
+                    <p>Templates</p>
+                </div>
+                <div className={'stat-group'}>
+                    <p>12m+</p>
+                    <p>Queries</p>
+                </div>
             </div>
-            <div className={'stat-group'}>
-                <p>314</p>
-                <p>Templates</p>
-            </div>
-            <div className={'stat-group'}>
-                <p>12m+</p>
-                <p>Queries</p>
-            </div>
+
         </div>
     </article>);
 }

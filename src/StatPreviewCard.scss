@@ -50,5 +50,30 @@
 }
 
 @media screen and (min-width: 600px) {
+  .preview-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    grid-auto-flow: dense;
 
+    picture {
+      grid-column: 2;
+
+      & > img {
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .info-wrapper {
+      padding: 3rem;
+      grid-column: 1;
+    }
+
+    .stat {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }

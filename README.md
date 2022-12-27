@@ -1,6 +1,7 @@
 # Stats preview card component
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+This is a solution to
+the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
 
 ## Table of contents
 
@@ -24,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/screenshot.png)
+![](./screenshot/screenshot_mobile.png)
+![](./screenshot/screenshot_desktop.png)
 
 ### Links
 
